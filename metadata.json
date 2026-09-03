@@ -1,0 +1,6 @@
+{
+  "name": "RailPredict AI",
+  "description": "Dynamic Train ETA Prediction & Railway Operations Intelligence Platform for Indian Railways Hackathon",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

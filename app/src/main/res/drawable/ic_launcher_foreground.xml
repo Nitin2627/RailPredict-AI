@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center train icon inside 66dp safe zone (21 to 87) -->
+    <!-- Railway tracks / AI path -->
+    <path
+        android:fillColor="#00F5D4"
+        android:pathData="M30,76 L78,76 L74,80 L34,80 Z" />
+    <!-- High speed train body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,30 C38,26 42,24 54,24 C66,24 70,26 70,30 L70,68 C70,72 66,74 54,74 C42,74 38,72 38,68 Z" />
+    <!-- Windshield -->
+    <path
+        android:fillColor="#0B132B"
+        android:pathData="M43,32 C43,30 46,28 54,28 C62,28 65,30 65,32 L65,44 L43,44 Z" />
+    <!-- Headlights -->
+    <path
+        android:fillColor="#F7B801"
+        android:pathData="M43,62 C43,60 45,59 47,59 C49,59 51,60 51,62 C51,64 49,65 47,65 C45,65 43,64 43,62 Z M57,62 C57,60 59,59 61,59 C63,59 65,60 65,62 C65,64 63,65 61,65 C59,65 57,64 57,62 Z" />
+    <!-- AI Radar Wave / Speed Arc -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF5722"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M76,36 C82,42 82,60 76,66" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00F5D4"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M81,30 C90,40 90,62 81,72" />
+</vector>
